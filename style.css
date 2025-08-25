@@ -91,6 +91,7 @@ form button:hover {
   padding: 10px;
   margin-bottom: 8px;
   border-radius: 5px;
+  align-items: center;
 }
 
 .entry span {
@@ -119,13 +120,63 @@ form button:hover {
   color: #fff;
 }
 
+/* 📱 Mobile Screens (max 600px) */
 @media (max-width: 600px) {
   .summary {
     flex-direction: column;
     gap: 5px;
+    text-align: center;
   }
 
   form {
     flex-direction: column;
+    gap: 10px;
+  }
+
+  form input,
+  form select,
+  form button {
+    width: 100%;
+  }
+
+  .entry {
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+  }
+
+  .entry .actions {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .filters {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .filters label {
+    text-align: center;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .summary {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
   }
 }
