@@ -23,4 +23,4 @@ This project implements **CRUD operations** with local storage persistence.
 
 1. Push code to GitHub.
 2. Deploy on [Netlify](https://www.netlify.com).
-3. Submit **GitHub Repo link** + **Netlify Live link**.
+3. Submit **[GitHub Repo link](https://github.com/beni2408/Income-Expense-Calculator-Task.git)** + **[Netlify Live link](https://expense-tracker-jascar.netlify.app/)**.
